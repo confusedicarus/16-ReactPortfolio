@@ -1,0 +1,20 @@
+.nav {
+    background-color: #8ecae6;
+    list-style: none;
+    flex-direction: row;
+    text-align:center;
+}
+.navBarContainer{
+    display:flex;
+}
+.nav-item{
+    font-size: 1rem;
+}
+.nav-item a{
+
+}
+@media screen and (max-width:375px){
+    .nav-item{
+        font-size: .75rem;
+    }
+}

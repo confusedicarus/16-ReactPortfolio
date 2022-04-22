@@ -1,0 +1,39 @@
+.projectImg{
+    height: 200px;
+    border: 1px solid black;
+    align-items: center;
+    
+
+}
+.projectWrapper{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:2%;
+}
+
+.imageWrapper {
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+@media screen and (max-width:520px) {
+    .projectImg{
+        height: 100px;
+    }
+    .card-footer{
+        font-size: .75rem;
+        text-align: center;
+    }
+    .btn{
+        font-size: .75rem;
+        
+    }
+    .projectWrapper{
+        flex-direction: column;
+    }
+    .linkBtn{
+        text-align: center;
+    }
+}
+    

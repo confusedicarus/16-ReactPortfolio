@@ -1,14 +1,15 @@
+import styles from './styles/Contact.css'
 function Contact() {
   return (
     <>
-      <div className="info-me">
-        <h4 id="contact">Contact Me</h4>
+      <div className="infoMe">
+        <h4 className="contactHeader">Leave me a message or feel free to checkout these links</h4>
         <ul className="contact">
           <li>
-            <a href="tel:720.515.7247"></a>(720) 515-7247
+            <a href="tel:720.515.7247">(720) 515-7247</a>
           </li>
           <li>
-            <a href="mailto: rlmor1023@gmail.com"></a>rlmor1023@gmail.com
+            <a href="mailto:rlmor1023@gmail.com">rlmor1023@gmail.com</a>
           </li>
           <li>
             <a href="https://github.com/confusedicarus">GitHub</a>
@@ -18,9 +19,14 @@ function Contact() {
               Linkedin
             </a>
           </li>
-          <li>Twitter</li>
-          <li>Instagram</li>
         </ul>
+        <form className='formWrapper'>
+          <input placeholder="First Name"></input>
+          <input placeholder="Last Name"></input>
+          <input placeholder="Email"></input> <br/>
+          <textarea placeholder="Message"></textarea><br/>
+          <button className='contactButton'>Submit</button>
+        </form>
       </div>
     </>
   );

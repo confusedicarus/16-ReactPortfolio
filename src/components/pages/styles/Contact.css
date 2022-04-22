@@ -1,0 +1,34 @@
+.contactHeader{
+    padding-top:1%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5rem;
+}
+.contact{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.infoMe{
+}
+input{
+    width: 30%;
+}
+textarea{
+    width: 90%;
+    height: 200px;
+}
+form {
+    margin-left:5%
+    
+    
+}
+.contactButton{
+    border: solid 3px #219EBC;
+    background-color: #FB8500;
+}
+@media screen and (max-width:434px) {
+    .contact{
+        display: block;
+    }
+    
+}

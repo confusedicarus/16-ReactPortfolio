@@ -1,0 +1,43 @@
+.homeBackground{
+    opacity: 70%;
+    position: relative;
+
+}
+.homeHeader{
+    display:block;
+    position:absolute;
+    opacity: 100%;
+    z-index: 1000;
+    left:20%;
+    right:20%;
+    margin-top:25%;
+    color: #023047;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    text-shadow: 1px 1px #023047;
+
+}
+.homeHeaderWrapper{
+    display: flex;
+}
+.homeSubHeader{
+    display:block;
+    position:absolute;
+    opacity: 100%;
+    z-index: 1000;
+    left:20%;
+    right:20%;
+    margin-top:34%;
+    color: #023047;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    text-shadow: 1px 1px #023047
+}
+@media screen and (max-width:375px) {
+    .homeHeader{
+        font-size: 1.75rem;
+    }
+    .homeSubHeader{
+        font-size: 1.75rem;
+    }
+}
